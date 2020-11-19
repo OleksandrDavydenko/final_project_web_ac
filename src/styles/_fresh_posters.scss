@@ -1,0 +1,75 @@
+.fresh_home_posters {
+    background: #ffffff;
+    width: 100%;
+    border: 1px solid red;
+}
+.fresh_posters-wrapper{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    min-height: 100px;
+}
+.fresh_title_wrapper{
+    width: 256px;
+    height: 250px;
+    margin-top: 20px;
+}
+.fresh_title {
+    color: rgb(41, 47, 47);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+}
+.fresh_italic_title {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgb(41, 47, 47);
+    font-style: italic;
+}
+.fresh_paragraph {
+ font-size: 16px;
+ color: rgb(41, 47, 47);
+ margin-top: 25px;
+}
+.window_img {
+   position: relative;
+   width: 485px; 
+   height: 490px;
+   z-index: 20;
+}
+.window_slide_wrapper {
+    position: relative;
+}
+.window_slide {
+    position: absolute;
+    background-color: hotpink;
+    width: 470px; 
+    height: 495px;
+    top: 28px;
+    left: 60px;
+    overflow: hidden;
+}
+.slides {
+    position: relative;
+}
+.slide1 {
+    position: absolute;
+    left: 0%;
+    transition: left 3s;
+
+}
+.slide1.act {
+    left: 100%;
+    transition: left 3s;
+}
+.slide2 {
+    position: absolute;
+    right: 100%;
+    transition: right 3s;
+}
+.slide2.act {
+    right: 0%;
+    transition: right 3s;
+}
