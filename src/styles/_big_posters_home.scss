@@ -1,0 +1,56 @@
+.big_posters {
+  background: #ffffff;
+  width: 100%;
+}
+.big_posters_wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  height: 1400px;
+  position: relative;
+}
+.big_poster_wrapper {
+  width: 549px;
+  height: 686px;
+  background-color: rgb(204, 234, 234);
+  margin-top: -150px;
+  text-align: center;
+}
+.big_poster_wrapper img {
+  width: 448px;
+  height: 551px;
+}
+.big_poster_title {
+  color: rgb(41, 47, 47);
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+.big_poster_wrapper_second {
+  width: 549px;
+  height: 686px;
+  background-color: rgb(245, 229, 214);
+  margin-top: 80px;
+  text-align: center;
+  margin-left: -80px;
+}
+.big_poster_wrapper_second img {
+  width: 448px;
+  height: 551px;
+}
+.big_poster_wrapper_third {
+  width: 549px;
+  height: 686px;
+  margin-top: 80px;
+  text-align: center;
+  border: solid 5px;
+}
+.big_poster_wrapper_third img {
+  width: 448px;
+  height: 551px;
+}
+.left_big_posters {
+  width: 549px;
+}

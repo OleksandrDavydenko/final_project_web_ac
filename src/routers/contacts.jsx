@@ -1,12 +1,12 @@
 /* eslint-disable no-sequences */
 import React from 'react';
-import ShopComponent from '../components/shop';
+import Contact from '../components/contact';
 
 function Contacts() {
   return (
   
   <div className="app-content-wrapper">
-    <ShopComponent/>
+    <Contact/>
   </div>
 
   );

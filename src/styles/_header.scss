@@ -1,91 +1,88 @@
-  .page-content {
-    display: flex;
-    justify-content: center;
-    border: 1px solid red;
-    height: 100%;
-  }
-  .header {
-    background: #ffffff;
-    height: 150px;
-    width: 100%;
-    border: 1px solid red;
-  }
-  .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-    max-width: 980px;
-    border: 1px solid red;
-  }
-  .header_title {
-      color: rgb(47, 46, 46);
-      font-weight: 400;
-      letter-spacing: 0.1em;
-      font-size: 28px;
-      position: relative;
-      margin-bottom: 30px;
-  }
-  .lit_o {
-    position: absolute;
-    left: 19px;
-    top: -5px;
-  }
-  .lit_p {
-    margin-right: 10px;
-  }
-  .stick{
-      position: absolute;
-      top: 29px;
-      width: 16px;
-      left: 18px;
-      border-bottom: 2px solid rgb(47, 46, 46);
-  }
-  .nav_wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-  }
-  .nav_item {
-    margin-left: 20px;
-  }
-  .nav_link {
-      font-size: 16px;
-      color: rgb(47, 46, 46);
-      position: relative;
-  }
-  .nav_link:hover {
-    color: rgb(252, 176, 140);
-  }
+.page-content {
+  display: flex;
+  justify-content: center;
 
-  .nav_link.nav_color {
-      color: rgb(252, 176, 140);
-      margin-left: 50px;
-      margin-right: 35px;
-  }
-  .image_login {
-      width: 26px;
-      height: 26px;
-      position: absolute;
-      right: 50px;
-      top: -5px;
-  }
-.basket_img {
-    position: absolute;
-    width: 25px;
-    height: 30px;
-    right: 10px;
-    top: -8px;
+  height: 100%;
 }
-.number_basket{
-    margin-right: 19px;
-    z-index: 10;
-    position: absolute;
-    color: #ffffff;
-    font-size: 1.2rem;
-    right: 0px;
+.header {
+  background: #ffffff;
+  height: 150px;
+  width: 100%;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 980px;
+}
+.header_title {
+  color: rgb(47, 46, 46);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-size: 28px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.lit_o {
+  position: absolute;
+  left: 19px;
+  top: -5px;
+}
+.lit_p {
+  margin-right: 10px;
+}
+.stick {
+  position: absolute;
+  top: 29px;
+  width: 16px;
+  left: 18px;
+  border-bottom: 2px solid rgb(47, 46, 46);
+}
+.nav_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.nav_item {
+  margin-left: 20px;
+}
+.nav_link {
+  font-size: 16px;
+  color: rgb(47, 46, 46);
+  position: relative;
+}
+.nav_link:hover {
+  color: rgb(252, 176, 140);
+}
+
+.nav_link.nav_color {
+  color: rgb(252, 176, 140);
+  margin-left: 50px;
+  margin-right: 35px;
+}
+.image_login {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  right: 50px;
+  top: -5px;
+}
+.basket_img {
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  right: 10px;
+  top: -8px;
+}
+.number_basket {
+  margin-right: 19px;
+  z-index: 10;
+  position: absolute;
+  color: #ffffff;
+  font-size: 1.2rem;
+  right: 0px;
 }
 .nav_link.active {
   color: rgb(252, 176, 140);
-
 }

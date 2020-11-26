@@ -7,7 +7,7 @@ function Header() {
     return (
        <header className='header page-content'>
            <div className='content-wrapper'>
-               <NavLink to="/home">
+               <NavLink exact to="/">
                    <h1 className='header_title'> <span className='lit_p' >P </span> <div className="stick"></div><span className='lit_o'>o</span>  STAR GAL</h1>
                </NavLink>
                <ul className='nav_wrapper'>

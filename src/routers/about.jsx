@@ -1,12 +1,12 @@
 /* eslint-disable no-sequences */
 import React from 'react';
-import ShopComponent from '../components/shop';
+import AboutPage from '../components/about';
 
 function About() {
   return (
   
   <div className="app-content-wrapper">
-    <ShopComponent/>
+    <AboutPage/>
   </div>
 
   );

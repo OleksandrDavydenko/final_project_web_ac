@@ -1,0 +1,46 @@
+.big_slider_wrapper {
+  text-align: center;
+}
+.big_slider_title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.big_slider_content {
+  width: 100%;
+
+  height: 238px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  .slider_content {
+    height: 238px;
+  }
+}
+.slides {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.left_btn {
+  position: absolute;
+  top: 72px;
+  font-size: 63px;
+  left: 0px;
+  color: white;
+  font-family: $font0;
+}
+.right_btn {
+  position: absolute;
+  top: 72px;
+  right: 0px;
+  font-size: 63px;
+  color: white;
+  font-family: $font0;
+}
+.left_btn:hover {
+  cursor: pointer;
+}
+.right_btn:hover {
+  cursor: pointer;
+}

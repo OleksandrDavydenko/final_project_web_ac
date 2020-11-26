@@ -6,6 +6,7 @@ import Shop from './components/shop';
 import About from './routers/about';
 import Contacts from './routers/contacts';
 import Home from './routers/home';
+import Footer from './components/footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Route path='/shop' component={Shop}/>
     <Route path='/about' component={About}/>
     <Route path='/contact' component={Contacts}/>
+  <Footer/>
   </div>
   </BrowserRouter>
   );

@@ -1,11 +1,16 @@
 .shop {
-    background: #ffffff;
-    width: 100%;
-    border: 1px solid red;
-    height: 100px;
+  background: #ffffff;
+  width: 100%;
+  border: 1px solid red;
 }
 .shop_wrapper {
-    max-width: 980px;
-    width: 100%;
-    border: 1px solid red;
+  max-width: 980px;
+  width: 100%;
+  border: 1px solid red;
+}
+.shop_title {
+  color: rgb(41, 47, 47);
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: 400;
 }
