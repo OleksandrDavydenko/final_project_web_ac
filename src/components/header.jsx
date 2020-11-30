@@ -11,7 +11,7 @@ function Header() {
                    <h1 className='header_title'> <span className='lit_p' >P </span> <div className="stick"></div><span className='lit_o'>o</span>  STAR GAL</h1>
                </NavLink>
                <ul className='nav_wrapper'>
-                   <li className="nav_item"> <NavLink className='nav_link' to="/">Home</NavLink></li>
+                   <li className="nav_item"> <NavLink exact={true} className='nav_link' to="/">Home</NavLink></li>
                    <li className="nav_item"> <NavLink className='nav_link' to="/shop">Shop</NavLink></li>
                    <li className="nav_item"> <NavLink className='nav_link' to="/about">About</NavLink></li>
                    <li className="nav_item"> <NavLink className='nav_link' to="/contact">Contact</NavLink></li>   

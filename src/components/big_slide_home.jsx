@@ -22,14 +22,23 @@ class BigSlider extends React.Component {
           this.state = {
             activeImageIndex: 0
           }
+          this.nextSlide = this.nextSlide.bind(this)
+          this.previousSlide = this.previousSlide.bind(this)
         }
         nextSlide () {
-            const maxActiveIndex = images.length - 1;
-            const nextIndex = this.state.activeImageIndex < maxActiveIndex ?  this.state.activeImageIndex + 1 : 0;
+            const maxActiveIndex = 1;
+            const nextIndex = this.state.activeImageIndex < maxActiveIndex ?  this.state.activeImageIndex + 1 : 0; // добавляем индекс массива
+            this.setState((state) => ({...state, activeImageIndex: nextIndex})) //меняем стейт
+          }
+
+        previousSlide () {
+            const maxActiveIndex = 0;
+            const nextIndex = this.state.activeImageIndex < maxActiveIndex ?  this.state.activeImageIndex - 1 : 0;
             this.setState((state) => ({...state, activeImageIndex: nextIndex}))
           }
+
         render() {
-           const containerOffset = 470 * this.state.activeImageIndex;
+           const containerOffset = 400 * this.state.activeImageIndex;
           
        return (
                <div className="big_slider_wrapper">
@@ -37,9 +46,9 @@ class BigSlider extends React.Component {
                  <div className="big_slider_content">
                    <div className="slides" style={{left: `-${containerOffset}px`}}>
                       {images.map(image => (<img className='slider_content' src={image.src} alt=""/>)) }
-                      <div className="left_btn" onClick={this.nextSlide}> « </div>
-                      <div className="right_btn"> » </div>
                     </div>
+                    <div className="left_btn" onClick={this.nextSlide}> « </div>
+                    <div className="right_btn" onClick={this.previousSlide}> » </div>
                  </div>        
                </div>
     )
