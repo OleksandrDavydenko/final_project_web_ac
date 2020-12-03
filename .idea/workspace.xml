@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c743c9-65f1-4467-90db-012d41d247e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/big_slide_home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/big_slide_home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +20,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -86,8 +73,16 @@
       <workItem from="1606903752291" duration="4424000" />
       <workItem from="1606916713530" duration="3914000" />
       <workItem from="1607013334072" duration="921000" />
-      <workItem from="1607014259764" duration="1550000" />
+      <workItem from="1607014259764" duration="2332000" />
     </task>
+    <task id="LOCAL-00001" summary="WS commit">
+      <created>1607018438776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607018438776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +105,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WS commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="WS commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606912744238">
@@ -140,5 +139,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="295" y="63" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606909589814" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607018449801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607018449801" />
   </component>
 </project>
