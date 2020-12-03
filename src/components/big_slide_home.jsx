@@ -17,8 +17,8 @@ const images = [
 
 
 class BigSlider extends React.Component {
-        constructor() {
-          super();
+    constructor(props) {
+          super(props);
           this.state = {
             activeImageIndex: 0
           }
